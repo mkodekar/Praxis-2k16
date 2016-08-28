@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">Praxis-2k16</string>
+
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="title_activity_main">MainActivity</string>
+
+    <string name="title_activity_register">RegisterActivity</string>
+
+    <string name="title_activity_forgot">ForgotPassActivity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <string name="facebook_app_id">1112321318860736</string>
+    <string name="events">Events</string>
+    <string name="messages">Messages</string>
+    <string name="map">Map</string>
+    <string name="notification">Notification</string>
+    <string name="sponsors">Sponsors</string>
+    <string name="about_us">About us</string>
+    <string name="settings">Settings</string>
+    <string name="feedback">Feedback</string>
+    <string name="nearby">Nearby</string>
+    <string name="logout">Logout</string>
+    <string name="whant_to_know_our_events">Whant to know our events?</string>
+</resources>
