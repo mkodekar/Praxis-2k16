@@ -30,7 +30,7 @@ public class ConnectivityReceiver
                 && activeNetwork.isConnectedOrConnecting();
 
         if (connectivityReceiverListener != null) {
-            connectivityReceiverListener.onNetworkConnectionChanged(isConnected);
+            connectivityReceiverListener.onNetworkConnectionChanged(isConnected, context);
         }
 
     }
@@ -45,7 +45,7 @@ public class ConnectivityReceiver
     }
 
     public interface ConnectivityReceiverListener {
-        void onNetworkConnectionChanged(boolean isConnected);
+        void onNetworkConnectionChanged(boolean isConnected, Context context);
     }
 
 }
